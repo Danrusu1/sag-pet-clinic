@@ -1,4 +1,4 @@
-package com.danrusu.sfgpetclinic.model;
+package org.danrusu.sfgpetclinic.model;
 
 import java.time.LocalDate;
 

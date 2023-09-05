@@ -1,4 +1,4 @@
-package com.danrusu.sfgpetclinic.model;
+package org.danrusu.sfgpetclinic.model;
 
 /**
  * Created by rusud on 04.09.2023

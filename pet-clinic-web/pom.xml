@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.danrusu</groupId>
         <artifactId>sfg-pet-clinic</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <groupId>org.danrusu</groupId>
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>org.danrusu</groupId>
             <artifactId>pet-clinic-data</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
 
         <dependency>

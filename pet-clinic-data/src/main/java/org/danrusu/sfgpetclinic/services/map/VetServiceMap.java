@@ -1,14 +1,14 @@
 package org.danrusu.sfgpetclinic.services.map;
 
 import org.danrusu.sfgpetclinic.model.Vet;
-import org.danrusu.sfgpetclinic.services.CrudService;
+import org.danrusu.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
 /**
  * Created by rusud on 14.09.2023
  */
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {

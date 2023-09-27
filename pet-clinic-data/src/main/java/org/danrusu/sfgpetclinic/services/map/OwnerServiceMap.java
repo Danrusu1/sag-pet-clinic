@@ -1,14 +1,14 @@
 package org.danrusu.sfgpetclinic.services.map;
 
 import org.danrusu.sfgpetclinic.model.Owner;
-import org.danrusu.sfgpetclinic.services.CrudService;
+import org.danrusu.sfgpetclinic.services.OwnerService;
 
 import java.util.Set;
 
 /**
  * Created by rusud on 14.09.2023
  */
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
@@ -32,5 +32,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }

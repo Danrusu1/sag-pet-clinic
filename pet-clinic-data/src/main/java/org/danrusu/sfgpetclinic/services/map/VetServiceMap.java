@@ -2,12 +2,14 @@ package org.danrusu.sfgpetclinic.services.map;
 
 import org.danrusu.sfgpetclinic.model.Vet;
 import org.danrusu.sfgpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 /**
  * Created by rusud on 14.09.2023
  */
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
